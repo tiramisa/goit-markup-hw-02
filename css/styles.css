@@ -1,0 +1,135 @@
+body {
+    position: relative;
+    width: 1440px;
+    height: 2076px;
+    background: #FFFFFF;
+    font-family: "Roboto", "Raleway";
+    font-style: normal;
+}
+
+.web {
+    color: #4D5AE5;
+}
+
+.studio {
+    color: #2E2F42;
+}
+
+.header-link {
+    font-size: 16px;
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+/* main */
+.hero-image {
+    font-size: 60px;
+    color: #FFFFFF;
+    background-color: #2E2F42;
+}
+
+.text-button {
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+}
+
+.main-page {
+    background-color: #E5E5E5;
+}
+
+.links {
+    color: #434455;
+}
+
+
+.our-team {
+    background-color: #F4F4FD;
+}
+
+li {
+    list-style-type: none;
+}
+
+address {
+    font-style: normal;
+}
+
+.contacts {
+    color: #2E2F42;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.item-btn .btn {
+    font-size: 24px;
+    color: #4D5AE5;
+    background-color: #E7E9FC;
+}
+
+.item-btn .btn:hover,
+.item-btn .btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* footer */
+.web,
+.studio-white {
+    font-size: 21px;
+}
+
+.studio-white {
+    color: #F4F4FD;
+
+}
+
+.footer-background {
+    background-color: #2E2F42;
+
+}
+
+.footer-text {
+    color: #F4F4FD;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    font-size: 16px;
+}
