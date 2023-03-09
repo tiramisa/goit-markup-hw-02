@@ -79,6 +79,7 @@ a{
     letter-spacing: 0.04em;
     flex-direction: row;
     align-items: flex-start;
+    font-family: inherit;
     padding: 16px 32px;
     gap: 10px;
     margin: 0 auto;
@@ -138,6 +139,7 @@ address {
 
 .item-btn .btn {
     font-size: 24px;
+    font-family: inherit;
     color: var(--iris-color);
     background-color: var(--cornflower-color);
 }
