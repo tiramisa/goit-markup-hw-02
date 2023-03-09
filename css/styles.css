@@ -25,6 +25,15 @@ body {
 }
 
 /* main */
+.hero-text {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
 .hero-image {
     font-size: 60px;
     color: #FFFFFF;
@@ -35,6 +44,18 @@ body {
     font-size: 16px;
     color: #FFFFFF;
     background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 24px;
+    display: block;
+    align-items: center;
+    letter-spacing: 0.04em;
+
+
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+    margin: 0 auto;
 }
 
 .main-page {
@@ -45,6 +66,15 @@ body {
     color: #434455;
 }
 
+.classes {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
 
 .our-team {
     background-color: #F4F4FD;
