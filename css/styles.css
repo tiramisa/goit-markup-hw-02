@@ -1,19 +1,24 @@
 :root {
-    --navy-blue: #2E2F42;
+    --navy-blue-color: #2E2F42;
     --white-color: #FFFFFF;
     --cloud-color: #F4F4FD;
     --slate-color: #434455;
     --iris-color: #4D5AE5;
     --cornflower-color: #E7E9FC;
     --main-page-color: #E5E5E5;
-    --ocean-color: #404BBF;;
+    --ocean-color: #404BBF;
 }
+
+/* TODO: указать доминантный цвет шрифта и убрать его использование из остальных мест */
+/* TODO: C11 проверить */
+/* TODO: C12 всех текстовых элементов точно соответствует значениям из макета и задана как множитель, а не в px. */
+/* TODO: C14-С15 убрать дубляжи указания толшины текста */
+/* TODO: C16 Кнопкам задано свойство cursor со значением pointer */
+/* TODO: В стилях не повторяются значения свойств, которые заданы браузером по умолчнаию. Например, ссылкам не нужно указывать cursor: pointer, а абзацам font-style: normal или font-weight: 400 */
 
 body {
     font-family: "Roboto", "Raleway";
     position: relative;
-    width: 1440px;
-    height: 2076px;
     background: var(--white-color);
     font-style: normal;
 }
@@ -25,7 +30,7 @@ body {
 }
 
 .studio {
-    color: var(--navy-blue);
+    color: var(--navy-blue-color);
 }
 
 .header-link {
@@ -36,7 +41,7 @@ body {
     letter-spacing: 0.02em;
 }
 .navigation .header-link{
-    color: var(--navy-blue);
+    color: var(--navy-blue-color);
 }
 
 
@@ -60,7 +65,7 @@ a{
 .hero-image {
     font-size: 60px;
     color: var(--white-color);
-    background-color: var(--navy-blue);
+    background-color: var(--navy-blue-color);
 }
 
 .text-button {
@@ -72,8 +77,6 @@ a{
     display: block;
     align-items: center;
     letter-spacing: 0.04em;
-
-
     flex-direction: row;
     align-items: flex-start;
     padding: 16px 32px;
@@ -89,14 +92,14 @@ a{
     color: var(--slate-color);
 }
 
-.classes {
+.section-header {
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--navy-blue);
+    color: var(--navy-blue-color);
 }
 
 .our-team {
@@ -112,7 +115,7 @@ address {
 }
 
 .contacts {
-    color: var(--navy-blue);
+    color: var(--navy-blue-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -127,7 +130,6 @@ address {
     margin: -1px;
     border: 0;
     padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -151,7 +153,7 @@ h3 {
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: var(--navy-blue-color);
 }
 
 p {
@@ -164,18 +166,17 @@ p {
 
 /* footer */
 .web,
-.studio-white {
-    font-size: 21px;
+.studio-white,
+.studio {
+    font-size: 18px;
 }
 
 .studio-white {
     color: var(--cloud-color);
-
 }
 
 .footer-background {
-    background-color: var(--navy-blue);
-
+    background-color: var(--navy-blue-color);
 }
 
 .footer-text {
