@@ -1,9 +1,11 @@
 :root {
-    --navy-blye: #2E2F42;
+    --navy-blue: #2E2F42;
     --white-color: #FFFFFF;
-    --cloud-color:#F4F4FD;
-    --slate-color:#434455;
-    --iris-color:#4D5AE5;
+    --cloud-color: #F4F4FD;
+    --slate-color: #434455;
+    --iris-color: #4D5AE5;
+    --cornflower-color: #E7E9FC;
+    --main-page-color: #E5E5E5;
 }
 
 body {
@@ -15,17 +17,19 @@ body {
     font-style: normal;
 }
 
+/* header */
+
 .web {
     color: var(--iris-color);
 }
 
 .studio {
-    color: var(--navy-blye);
+    color: var(--navy-blue);
 }
 
 .header-link {
     font-size: 16px;
-    color: var(--navy-blye);
+    color: var(--navy-blue);
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -45,7 +49,7 @@ body {
 .hero-image {
     font-size: 60px;
     color: var(--white-color);
-    background-color: var(--navy-blye);
+    background-color: var(--navy-blue);
 }
 
 .text-button {
@@ -67,11 +71,11 @@ body {
 }
 
 .main-page {
-    background-color: #E5E5E5;
+    background-color: var(--main-page-color);
 }
 
 .links {
-    color: var( --slate-color);
+    color: var(--slate-color);
 }
 
 .classes {
@@ -81,7 +85,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--navy-blye);
+    color: var(--navy-blue);
 }
 
 .our-team {
@@ -97,7 +101,7 @@ address {
 }
 
 .contacts {
-    color: var(--navy-blye);
+    color: var(--navy-blue);
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -122,7 +126,7 @@ address {
 .item-btn .btn {
     font-size: 24px;
     color: var(--iris-color);
-    background-color: #E7E9FC;
+    background-color: var(--cornflower-color);
 }
 
 .item-btn .btn:hover,
@@ -136,7 +140,7 @@ h3 {
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--navy-blye);
+    color: var(--navy-blue);
 }
 
 p {
@@ -144,7 +148,7 @@ p {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var( --slate-color);
+    color: var(--slate-color);
 }
 
 /* footer */
@@ -159,7 +163,7 @@ p {
 }
 
 .footer-background {
-    background-color: var(--navy-blye);
+    background-color: var(--navy-blue);
 
 }
 
