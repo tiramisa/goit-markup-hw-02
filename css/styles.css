@@ -1,23 +1,31 @@
+:root {
+    --navy-blye: #2E2F42;
+    --white-color: #FFFFFF;
+    --cloud-color:#F4F4FD;
+    --slate-color:#434455;
+    --iris-color:#4D5AE5;
+}
+
 body {
     position: relative;
     width: 1440px;
     height: 2076px;
-    background: #FFFFFF;
+    background: var(--white-color);
     font-family: "Roboto", "Raleway";
     font-style: normal;
 }
 
 .web {
-    color: #4D5AE5;
+    color: var(--iris-color);
 }
 
 .studio {
-    color: #2E2F42;
+    color: var(--navy-blye);
 }
 
 .header-link {
     font-size: 16px;
-    color: #2E2F42;
+    color: var(--navy-blye);
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -31,19 +39,19 @@ body {
     line-height: 60px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
 .hero-image {
     font-size: 60px;
-    color: #FFFFFF;
-    background-color: #2E2F42;
+    color: var(--white-color);
+    background-color: var(--navy-blye);
 }
 
 .text-button {
     font-size: 16px;
-    color: #FFFFFF;
-    background-color: #4D5AE5;
+    color: var(--white-color);
+    background-color: var(--iris-color);
     font-weight: 500;
     line-height: 24px;
     display: block;
@@ -63,7 +71,7 @@ body {
 }
 
 .links {
-    color: #434455;
+    color: var( --slate-color);
 }
 
 .classes {
@@ -73,11 +81,11 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--navy-blye);
 }
 
 .our-team {
-    background-color: #F4F4FD;
+    background-color: var(--cloud-color);
 }
 
 li {
@@ -89,7 +97,7 @@ address {
 }
 
 .contacts {
-    color: #2E2F42;
+    color: var(--navy-blye);
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -113,13 +121,13 @@ address {
 
 .item-btn .btn {
     font-size: 24px;
-    color: #4D5AE5;
+    color: var(--iris-color);
     background-color: #E7E9FC;
 }
 
 .item-btn .btn:hover,
 .item-btn .btn:focus {
-    color: #FFFFFF;
+    color: var(--white-color);
     background-color: #404BBF;
 }
 
@@ -128,7 +136,7 @@ h3 {
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--navy-blye);
 }
 
 p {
@@ -136,7 +144,7 @@ p {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var( --slate-color);
 }
 
 /* footer */
@@ -146,17 +154,17 @@ p {
 }
 
 .studio-white {
-    color: #F4F4FD;
+    color: var(--cloud-color);
 
 }
 
 .footer-background {
-    background-color: #2E2F42;
+    background-color: var(--navy-blye);
 
 }
 
 .footer-text {
-    color: #F4F4FD;
+    color: var(--cloud-color);
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
