@@ -9,11 +9,11 @@
 }
 
 body {
+    font-family: "Roboto", "Raleway";
     position: relative;
     width: 1440px;
     height: 2076px;
     background: var(--white-color);
-    font-family: "Roboto", "Raleway";
     font-style: normal;
 }
 
