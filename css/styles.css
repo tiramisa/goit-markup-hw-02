@@ -6,6 +6,7 @@
     --iris-color: #4D5AE5;
     --cornflower-color: #E7E9FC;
     --main-page-color: #E5E5E5;
+    --ocean-color: #404BBF;;
 }
 
 body {
@@ -29,14 +30,24 @@ body {
 
 .header-link {
     font-size: 16px;
-    color: var(--navy-blue);
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
 }
+.navigation .header-link{
+    color: var(--navy-blue);
+}
 
+
+.navigation .header-link:hover,
+.navigation .header-link:focus{
+    color: var(--slate-color);
+}
 /* main */
+a{
+    text-decoration: none;
+}
 .hero-text {
     font-weight: 700;
     font-size: 56px;
@@ -132,7 +143,7 @@ address {
 .item-btn .btn:hover,
 .item-btn .btn:focus {
     color: var(--white-color);
-    background-color: #404BBF;
+    background-color: var(--ocean-color);
 }
 
 h3 {
