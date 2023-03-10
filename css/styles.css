@@ -9,17 +9,11 @@
     --ocean-color: #404BBF;
 }
 
-/* TODO: указать доминантный цвет шрифта и убрать его использование из остальных мест */
-/* TODO: C11 проверить */
-/* TODO: C12 всех текстовых элементов точно соответствует значениям из макета и задана как множитель, а не в px. */
-/* TODO: C14-С15 убрать дубляжи указания толшины текста */
-/* TODO: C16 Кнопкам задано свойство cursor со значением pointer */
-/* TODO: В стилях не повторяются значения свойств, которые заданы браузером по умолчнаию. Например, ссылкам не нужно указывать cursor: pointer, а абзацам font-style: normal или font-weight: 400 */
-
 body {
     font-family: "Roboto", "Raleway";
     position: relative;
-    background: var(--white-color);
+    background-color: var(--white-color);
+    color: var(--navy-blue-color);
     font-style: normal;
 }
 
@@ -27,21 +21,27 @@ body {
 
 .web {
     color: var(--iris-color);
+    line-height: 1.3;
+    font-weight: 800;
+    font-size: 18px;
 }
 
 .studio {
     color: var(--navy-blue-color);
+    line-height: 1.3;
+    font-weight: 800;
+    font-size: 18px;
 }
 
 .header-link {
     font-size: 16px;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 .navigation .header-link{
-    color: var(--navy-blue-color);
+    color: inherit;
 }
 
 
@@ -50,20 +50,20 @@ body {
     color: var(--slate-color);
 }
 /* main */
-a{
+
+.contacts , .header-link , .title-link{
     text-decoration: none;
 }
 .hero-text {
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white-color);
 }
 
 .hero-image {
-    font-size: 60px;
     color: var(--white-color);
     background-color: var(--navy-blue-color);
 }
@@ -73,7 +73,7 @@ a{
     color: var(--white-color);
     background-color: var(--iris-color);
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     display: block;
     align-items: center;
     letter-spacing: 0.04em;
@@ -83,6 +83,8 @@ a{
     padding: 16px 32px;
     gap: 10px;
     margin: 0 auto;
+    cursor: pointer;
+    
 }
 
 .main-page {
@@ -96,30 +98,31 @@ a{
 .section-header {
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.1;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--navy-blue-color);
+    color: inherit;
 }
 
 .our-team {
     background-color: var(--cloud-color);
 }
 
-li {
+.items {
     list-style-type: none;
 }
 
-address {
+.link {
     font-style: normal;
+    text-decoration: none;
 }
 
 .contacts {
-    color: var(--navy-blue-color);
+    color: inherit;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     text-decoration: none;
     letter-spacing: 0.02em;
 }
@@ -138,10 +141,13 @@ address {
 }
 
 .item-btn .btn {
-    font-size: 24px;
+    font-size: 16px;
+    line-height: 1.4;
     font-family: inherit;
     color: var(--iris-color);
     background-color: var(--cornflower-color);
+    cursor: pointer;
+
 }
 
 .item-btn .btn:hover,
@@ -150,26 +156,28 @@ address {
     background-color: var(--ocean-color);
 }
 
-h3 {
+.title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--navy-blue-color);
+    color: inherit;
 }
 
-p {
+.text-content {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate-color);
 }
 
 /* footer */
+
 .web,
 .studio-white,
 .studio {
+    text-decoration: none;
     font-size: 18px;
 }
 
@@ -184,7 +192,7 @@ p {
 .footer-text {
     color: var(--cloud-color);
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
     font-size: 16px;
