@@ -21,7 +21,7 @@ body {
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.3px;
+    line-height: 1.33px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris-color);
@@ -46,8 +46,10 @@ body {
 
 
 .navigation .header-link:hover,
-.navigation .header-link:focus {
-    color: var(--slate-color);
+.navigation .header-link:focus,
+.contact-links .contacts:hover,
+.contact-links .contacts:focus {
+    color: var(--iris-color);
 }
 
 /* main */
@@ -115,6 +117,7 @@ body {
 
 .contacts {
     color: inherit;
+    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -147,7 +150,8 @@ body {
     background-color: var(--ocean-color);
 }
 
-.future-title {
+.feature-title,
+.project-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
