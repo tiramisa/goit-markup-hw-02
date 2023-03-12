@@ -11,19 +11,20 @@
 
 body {
     font-family: "Roboto", "Raleway";
-    position: relative;
     background-color: var(--white-color);
     color: var(--navy-blue-color);
-    font-style: normal;
+    font-size: 16px;
 }
 
 /* header */
-
-.web {
-    color: var(--iris-color);
-    line-height: 1.3;
+.logo {
+    font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
+    line-height: 1.33px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris-color);
 }
 
 .studio {
@@ -34,30 +35,34 @@ body {
 }
 
 .header-link {
-    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.navigation .header-link{
+.navigation .header-link {
     color: inherit;
 }
 
 
 .navigation .header-link:hover,
-.navigation .header-link:focus{
-    color: var(--slate-color);
+.navigation .header-link:focus,
+.contact-links .contacts:hover,
+.contact-links .contacts:focus {
+    color: var(--iris-color);
 }
+
 /* main */
 
-.contacts , .header-link , .title-link{
+.contacts,
+.header-link,
+.logo {
     text-decoration: none;
 }
-.hero-text {
-    font-weight: 700;
+
+.hero-title {
     font-size: 56px;
-    line-height: 1.5;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white-color);
@@ -84,25 +89,18 @@ body {
     gap: 10px;
     margin: 0 auto;
     cursor: pointer;
-    
-}
-
-.main-page {
-    background-color: var(--main-page-color);
 }
 
 .links {
     color: var(--slate-color);
 }
 
-.section-header {
-    font-weight: 700;
+.section-title {
     font-size: 36px;
     line-height: 1.1;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: inherit;
 }
 
 .our-team {
@@ -113,17 +111,14 @@ body {
     list-style-type: none;
 }
 
-.link {
-    font-style: normal;
+.address-link {
     text-decoration: none;
 }
 
 .contacts {
     color: inherit;
-    font-weight: 400;
-    font-size: 16px;
+    font-style: normal;
     line-height: 1.5;
-    text-decoration: none;
     letter-spacing: 0.02em;
 }
 
@@ -147,7 +142,6 @@ body {
     color: var(--iris-color);
     background-color: var(--cornflower-color);
     cursor: pointer;
-
 }
 
 .item-btn .btn:hover,
@@ -156,7 +150,8 @@ body {
     background-color: var(--ocean-color);
 }
 
-.title {
+.feature-title,
+.project-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -165,21 +160,12 @@ body {
 }
 
 .text-content {
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate-color);
 }
 
 /* footer */
-
-.web,
-.studio-white,
-.studio {
-    text-decoration: none;
-    font-size: 18px;
-}
 
 .studio-white {
     color: var(--cloud-color);
